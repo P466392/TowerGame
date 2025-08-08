@@ -1,8 +1,8 @@
 package TowerGame
 
-internal class Enemy {
-    var hp: Int
-        private set
+public open class Enemy {
+    public var hp: Int
+
 
     constructor() {
         hp = 100
