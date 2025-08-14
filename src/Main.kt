@@ -8,11 +8,11 @@ fun main() {
     println("### Enemy HPs before tower and hero attack ###")
     println("Enemy1: ${e1.hp}")
     println("Enemy2: ${e2.hp}")
-    println("Hero: ${hero.hp}")
+    println("Hero: ${Hero.hp}")
     val tower = Tower()
     tower.attack(e1, 10) // Tower attacks the first enemy with 10 damage
     println("### Enemy HPs after tower and hero attack ###")
     println("Enemy1: ${e1.hp}")
     println("Enemy2: ${e2.hp}")
-    println("Hero: ${hero.hp}")
+    println("Hero: ${Hero.hp}")
 }

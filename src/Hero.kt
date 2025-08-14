@@ -1,8 +1,7 @@
 package TowerGame
 
-internal class Hero {
-    var hp: Int
-        private set
+public open class Hero {
+    public var hp: Int
 
     constructor() {
         hp = 100
@@ -18,5 +17,9 @@ internal class Hero {
 
     fun attack(e: Enemy, attackStrength: Int){
         e.getDamage(attackStrength)
+    }
+
+    companion object {
+        val hp: String = ""
     }
 }
