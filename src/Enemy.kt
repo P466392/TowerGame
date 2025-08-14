@@ -19,4 +19,8 @@ public open class Enemy {
     /*
     Add a method for attacking the hero here
      */
+
+    fun doDamage(damage: Int) {
+        hp += damage
+    }
 }
